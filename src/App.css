@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-white1: #86563c;
+}
+
 * {
   margin: 0;
   padding: 0;

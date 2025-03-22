@@ -51,12 +51,12 @@ function App() {
 
   return (
     <>
-      <div className='app '>
+      <div className='app'>
         <main>
-          <div className='searchBox'>
+          <div className='flex items-center justify-center h-15'>
             <input
               type='text'
-              className='searchBar'
+              className='w-5xl h-10 appearance-none bg-white/50 border-0 outline-none rounded-xl shadow-md text-gray-800 text-base text-center'
               placeholder='Search...'
               onChange={e => setQuery(e.target.value)}
               value={query}
